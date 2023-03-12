@@ -1,5 +1,7 @@
 # This is the Cat-face website
 
+![Languages](https://img.shields.io/github/languages/count/alejandrodgz/catface-app)
+
 This project was bootstrapped with [Create React App]
 
 ##how to run this project
