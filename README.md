@@ -29,6 +29,18 @@ to download all the libraries that you need, (you can see all the information of
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
 
+### Files
+
+| File  | Directory  | Description |
+| :------ |:--------------| :---------------------|
+| `index.js` | src | The root Component, this component is the one that is wrap in the redux provider |
+| `App.js`  | src  | this component is on charge of establish the different routes of the app   |
+| `store.js` | app   | object that holds the entire state tree of your application(react - redux), the store was created with `createStore` |
+| `CatsSlice.js` | features/Cats | contains the only slice of the application, the initial state was created with `createAsyncThunk` fetching data from the api |
+| `CatDb.js` | crud | this file takes several components to make a visible list of the state where you can delete, edit and add objects(crud) |
+| `CatShow.js` | catshow | this component takes a function to fetch individual elements from the api, it shows from a url any time that you click a button |
+| `index.html` | public | Is the main file that contains all the elements of the DOM |
+
 ## Available Scripts
 
 In the project directory, you can run:
