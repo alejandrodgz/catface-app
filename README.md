@@ -9,8 +9,25 @@ This project was bootstrapped with [Create React App]
 ##how to run this project
 
 the first thing to do is to clone the repository in your local enviroment (git clone https://github.com/alejandrodgz/catface-app.git). \
-once you have the this repo cloned you should run ###`npm install`, this would allow you\
-to download all the libraries that you need, (you can see all the information of this libraries in the package.json file
+once you have the this repo cloned you should run `npm install`, this will allow you\
+to download all the libraries that you need, (you can see all the information of this libraries in the `package.json` file
+
+### npm libraries
+
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "nanoid": "^4.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
 
 ## Available Scripts
 
