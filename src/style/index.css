@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Cherrils';
+    src: url(./fonts/Cherrils.ttf) format('truetype');
+}
+
+.headercontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.headercontainer h1{
+    font-family: 'Cherrils';
+    font-size: 4rem;
+    color: #A57CA4;
+}
+
+.headercontainer h1{
+    font-family: 'Cherrils';
+    font-size: 4rem;
+    text-shadow: 0.5px 0.5px  rgb(39, 39, 39);
+}
+.headercontainer img{
+    width: 1rem;
+    height: 1rem;
+}
+.header-button{
+    text-shadow: 0.5px 0.5px rgb(143, 143, 143);
+}
+
+.buttons-container {
+    display: flex;
+    flex-flow: column;
+}

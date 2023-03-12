@@ -1,0 +1,28 @@
+.card-container{
+    align-items: center;
+    width: 18rem;
+    height: 18rem;
+
+}
+.card-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.pictureram-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
