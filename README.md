@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App]
 
 ##how to run this project
 
-the first thing to do is to clone the repository in your local enviroment (git clone https://github.com/alejandrodgz/catface-app.git).\
+the first thing to do is to clone the repository in your local enviroment (git clone https://github.com/alejandrodgz/catface-app.git). \
 once you have the this repo cloned you should run ###`npm install`, this would allow you\
 to download all the libraries that you need, (you can see all the information of this libraries in the package.json file
 
