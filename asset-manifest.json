@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/catface-app/static/css/main.f30b9160.css",
+    "main.js": "/catface-app/static/js/main.a36aa53e.js",
+    "static/media/Cherrils.ttf": "/catface-app/static/media/Cherrils.219f25553900a3181ebd.ttf",
+    "index.html": "/catface-app/index.html",
+    "main.f30b9160.css.map": "/catface-app/static/css/main.f30b9160.css.map",
+    "main.a36aa53e.js.map": "/catface-app/static/js/main.a36aa53e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f30b9160.css",
+    "static/js/main.a36aa53e.js"
+  ]
+}
