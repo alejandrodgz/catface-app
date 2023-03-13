@@ -55,9 +55,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-#Version Español
+# Version Español
 
-##Cómo ejecutar este proyecto
+## Cómo ejecutar este proyecto
 
 Lo primero que debes hacer es clonar el repositorio en tu entorno local (git clone https://github.com/alejandrodgz/catface-app.git).
 Una vez que tengas este repositorio clonado, debes ejecutar `npm install`, esto te permitirá descargar todas las bibliotecas que necesitas (puedes ver toda la información de estas bibliotecas en el archivo package.json).
@@ -73,7 +73,7 @@ Despues de las instrucciones anteriores para correr el proyecto localmente solo 
     react-redux
     react-router-dom
     
-###Archivos
+### Archivos
     
 | Archivo  | Directorio  | Descripcion |
 | :------ |:--------------| :---------------------|
@@ -85,18 +85,18 @@ Despues de las instrucciones anteriores para correr el proyecto localmente solo 
 | `CatShow.js` | catshow |Este componente toma una función para recuperar elementos individuales de la API, muestra desde una URL cada vez que haces clic en un botón |
 | `index.html` | public | Es el archivo principal que contiene todos los elementos del DOM|
 
-##Scripts disponibles
+## Scripts disponibles
 
 En el directorio del proyecto, puedes ejecutar:
 
-###npm start
+### npm start
 Ejecuta la aplicación en el modo de desarrollo.
 Abre http://localhost:3000 para verla en tu navegador.
 
 La página se recargará automáticamente cuando realices cambios.
 También puedes ver cualquier error de lint en la consola.
 
-###npm run build
+### npm run build
 Compila la aplicación para producción en la carpeta build.
 Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
