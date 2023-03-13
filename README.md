@@ -10,24 +10,18 @@ This project was bootstrapped with [Create React App]
 
 the first thing to do is to clone the repository in your local enviroment (git clone https://github.com/alejandrodgz/catface-app.git). \
 once you have the this repo cloned you should run `npm install`, this will allow you\
-to download all the libraries that you need, (you can see all the information of this libraries in the `package.json` file
+to download all the libraries that you need, (you can see all the information of this libraries in the `package.json` file)
+after that, to run this project you just need to run `npm start`
 
-### npm libraries
+### npm libraries that were used
 
-    "@reduxjs/toolkit": "^1.9.3",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.3.4",
-    "bootstrap": "^5.2.3",
-    "nanoid": "^4.0.1",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.9.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    reduxjs/toolkit
+    axios
+    bootstrap
+    nanoid
+    react-bootstrap
+    react-redux
+    react-router-dom
 
 ### Files
 
@@ -60,6 +54,53 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+#Version Español
+
+##Cómo ejecutar este proyecto
+
+Lo primero que debes hacer es clonar el repositorio en tu entorno local (git clone https://github.com/alejandrodgz/catface-app.git).
+Una vez que tengas este repositorio clonado, debes ejecutar `npm install`, esto te permitirá descargar todas las bibliotecas que necesitas (puedes ver toda la información de estas bibliotecas en el archivo package.json).
+Despues de las instrucciones anteriores para correr el proyecto localmente solo debes ejecutar `npm start`
+
+### librerias adicionales que fueron utilizadas
+
+    reduxjs/toolkit
+    axios
+    bootstrap
+    nanoid
+    react-bootstrap
+    react-redux
+    react-router-dom
+    
+###Archivos
+    
+| Archivo  | Directorio  | Descripcion |
+| :------ |:--------------| :---------------------|
+| `index.js` | src | El componente raíz, este componente es el que se envuelve en el proveedor redux |
+| `App.js`  | src  | Este componente se encarga de establecer las diferentes rutas de la aplicación  |
+| `store.js` | app   | Objeto que contiene todo el árbol de estado de tu aplicación (React-Redux), el store se creó con createStore |
+| `CatsSlice.js` | features/Cats | Contiene el único slice de la aplicación, el estado inicial se creó con createAsyncThunk recuperando datos de la API |
+| `CatDb.js` | crud | Este archivo toma varios componentes para crear una lista visible del estado donde puedes eliminar, editar y agregar objetos (crud) |
+| `CatShow.js` | catshow |Este componente toma una función para recuperar elementos individuales de la API, muestra desde una URL cada vez que haces clic en un botón |
+| `index.html` | public | Es el archivo principal que contiene todos los elementos del DOM|
+
+##Scripts disponibles
+
+En el directorio del proyecto, puedes ejecutar:
+
+###npm start
+Ejecuta la aplicación en el modo de desarrollo.
+Abre http://localhost:3000 para verla en tu navegador.
+
+La página se recargará automáticamente cuando realices cambios.
+También puedes ver cualquier error de lint en la consola.
+
+###npm run build
+Compila la aplicación para producción en la carpeta build.
+Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
+
+La compilación se minimiza y los nombres de archivo incluyen los
 
 ## Author
 
